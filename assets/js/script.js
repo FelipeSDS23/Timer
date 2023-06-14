@@ -1,7 +1,7 @@
-let display = document.querySelector('.display');
-let start = document.querySelector('#start');
-let pause = document.querySelector('#stop');
-let reset = document.querySelector('#reset');
+const display = document.querySelector('#display');
+const start = document.querySelector('#start');
+const pause = document.querySelector('#stop');
+const reset = document.querySelector('#reset');
 
 start.addEventListener('click', startTimer);
 pause.addEventListener('click', stopTimer);
@@ -18,7 +18,7 @@ function startTimer() {
     clearInterval(time);
 
     time = setInterval(() => {
-        display.style.color = 'black';
+        display.style.color = '#32DF4D';
         //hours
         if (seconds === 59) {
             minutes++;
@@ -48,7 +48,7 @@ function stopTimer() {
 }
 
 function resetTimer() {
-    display.style.color = 'black';
+    display.style.color = '#32DF4D';
     clearInterval(time);
     hours = 00;
     minutes = 00;
