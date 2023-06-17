@@ -7,7 +7,7 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-    font-family: "Calculator";
+    font-family: "Calculator", sans-serif;
 }
 
 body {
