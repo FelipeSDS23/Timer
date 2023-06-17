@@ -1,6 +1,6 @@
 @font-face {
     font-family: "Calculator";
-    src: url(/assets/fonts/Calculator.ttf);
+    src: url(../fonts/Calculator.ttf);
 }
 
 * {
